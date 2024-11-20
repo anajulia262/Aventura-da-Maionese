@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Aventura da Maionese</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="inicio.png" alt="">
+            <p>Sua aventura começa no sofá da casa Watterson, onde Ricardo nosso héroi está. Sua amada rainha (Nicole) lhe pede para comprar maionese no mercado, e vc como um bravo héroi aceita essa perigosa missão. Ajude nosso héroi a tomar as decisões certas para cumprir sua missão.</p>
+            <button class="btn-proximo" data-proximo="1">Ir ao Mercado</button>
+            <button class="btn-proximo" data-proximo="2">Ir a Padaria</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <img src="duvida.png">
+            <p>Vc sai de casa e monta em seu fiel corssel, mas de repente, uma bruxa aparece em seu caminho e lhe mostra uma profecia do que vira a frente. O caminho é perigoso vc deseja seguir em frente?</p>
+            <button class="btn-proximo" data-proximo="3">Sim</button>
+            <button class="btn-proximo" data-proximo="4">Não</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <img src="duvida.png">
+            <p>A padaria fica no esquina de sua casa, mas a outra a dois quarterões a frente. Como um grande héroi mas tambem como um grande preguiçoso, vc decide ir com sue fiel corssel nesse aventura. Em qual das padarias vc acha que encontrará seu objetvo?</p>
+            <button class="btn-proximo" data-proximo="5">Perto de casa</button>
+            <button class="btn-proximo" data-proximo="6">Longe de casa</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <img src="multa.png">
+            <p>No caminho, vc se depara com um troll do pedágio e ele lhe pede para pagar R$0,50 para passar. Vc decide não pagar e engana o troll para passar, levando assim uma multa para casa.</p>
+            <button class="btn-proximo" data-proximo="7">Seguir sua aventura para o mercado</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="falhou.png" alt="imagem voltando para casa e desitindo da aventura">
+            <p>Você decide que a aventura é grande demais e volta para casa, sua rainha fica brava e joga um olhar de ira que faz vc se arrepender de não ter cumprido a missão.</p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <img src="esquina.jpg">
+            <p>Chegando a padaria vc esquece oque vei comprar então checa sua lista de compra. Percebendo que não vendem maionese na padaria, vc decide ir até o mercado.</p>
+            <button class="btn-proximo" data-proximo="7">Seguir sua aventura para o mercado</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <img src="triste.png">
+            <p>Vc decide se aventurar um pouco mais e ir até a padaria mais longe. Mas ao chegar vc percebe que a padaria esta fechada e tem que voltar.</p>
+            <button class="btn-proximo" data-proximo="8">Voltar e ir a padaria mais próxima</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <img src="duvida.png">
+            <p>Ao seguir com sua aventura, vc e seu corssel se deparam com um lago de cimento movediço. Seu corssel tenta pular o lago mas acaba ficando preso. E agora o que vc fará?</p>
+            <button class="btn-proximo" data-proximo="9">Ajudar seu fiel companheiro</button>
+            <button class="btn-proximo" data-proximo="10">Seguir sem ele</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <img src="triste.png">
+            <p>Chegando a padaria vc esquece oq veio comprar, então checa sua lista de compra. Percebendo que não vendem maionese na padaria, vc decide ir até o mercado.</p>
+            <button class="btn-proximo" data-proximo="7">Seguir sua aventura para o mercado</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <img src="isso.png">
+            <p>Ao ajudar se companheiro, o caminho fica mas fácil e sem preguissa vc chega ou mercado.</p>
+            <button class="btn-proximo" data-proximo="11">Entrar no mercado</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <img src="preguica.png">
+            <p>Ao seguir sem seu companheiro, o caminho se torna difícil e vc esta morrendo de preguiça para comtinuar, mas tem que seguir em frente.</p>
+            <button class="btn-proximo" data-proximo="12">Continuar</button>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <img src="fim.png" alt="encontrando uma cidade maravilhosa perdida no Amazonas">
+            <p>Vc compra a maionese volta para casa. Sua Rainha esta orgulhosa, e prepara um delicioso banquete de sanduiches para o janta. Parabéns vc cumpriu sua missão.</p>
+        </div>
+
+        <div class="passo" id="passo-12">
+            <img src="eba.png">
+            <p>Depois de passar longos minutos sobre o sol quente vc finalmente avista o mercado.</p>
+            <button class="btn-proximo" data-proximo="11">Entrar no merado</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
